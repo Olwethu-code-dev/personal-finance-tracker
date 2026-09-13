@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Finance Tracker - Reports</title>
+
+    <link rel="stylesheet" href="Styles.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <aside class="sidebar">
+            <h2>Finance Tracker</h2>
+            <ul>
+                <li>
+                    <a href="dashboard.html">Dashboard</a>
+                </li>
+                <li>
+                    <a href="income.html">Income</a>
+                </li>
+                <li>
+                    <a href="expenses.html">Expenses</a>
+                </li>
+                <li>
+                    <a href="budget.html">Budget</a>
+                </li>
+                <li class="active">
+                    <a href="reports.html">Reports</a>
+                </li>
+                <li>
+                    <a href="profile.html">Profile</a>
+                </li>
+                <li>
+                    <a href="#" id="logoutLink">Logout</a>
+                </li>
+            </ul>
+        </aside>
+
+
+       <main class="content">
+
+    <header>
+        <h1>Reports</h1>
+        <p>View a summary of your financial activity.</p>
+    </header>
+
+    <section class="cards">
+
+        <div class="card income">
+            <h3>Total Income</h3>
+            <p id="reportIncome">R0.00</p>
+        </div>
+
+        <div class="card expense">
+            <h3>Total Expenses</h3>
+            <p id="reportExpenses">R0.00</p>
+        </div>
+
+        <div class="card balance">
+            <h3>Balance</h3>
+            <p id="reportBalance">R0.00</p>
+        </div>
+
+    </section>
+
+    <section class="transactions">
+
+        <h2>Financial Summary</h2>
+
+        <p id="reportSummary">
+            No financial data available yet.
+        </p>
+
+    </section>
+
+</main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
