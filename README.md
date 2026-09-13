@@ -40,3 +40,16 @@ Register → Login → Dashboard → Income / Expenses / Budget / Reports / Prof
 
 
 The purpose of this application is to provide users with a simple way to record and monitor their income, expenses and budgets in one place.
+
+## Project Structure
+
+- `index.html` – Login page
+- `register.html` – User registration
+- `dashboard.html` – Main dashboard
+- `income.html` – Income management
+- `expenses.html` – Expense management
+- `budget.html` – Budget management
+- `reports.html` – Financial reports
+- `profile.html` – User profile
+- `styles.css` – Application styling
+- `script.js` – Application functionality
